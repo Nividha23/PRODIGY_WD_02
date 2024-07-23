@@ -1,0 +1,54 @@
+
+body {
+    font-family: "Lucida handwriting",cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #f70391, #ea72b8);
+}
+
+.stopwatch {
+    text-align: center;
+    background: rgb(145, 227, 237);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgb(248, 247, 249);
+}
+
+.display {
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #121213;
+    color:white;
+}
+
+
+.laps h3 {
+    margin-bottom: 10px;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.laps ul li {
+    background: #121213;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
